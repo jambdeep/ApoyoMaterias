@@ -5,7 +5,7 @@ const texta02 = document.querySelector('.text-2');
 texta02.innerHTML = texta02.textContent.replace(/\S/g,"<span>$&</span>")
 
 let tl = gsap.timeline({repeat: -1, repeatDelay: 1, yoyo: true})
-tl.to(".text-1 span", {y:  10, duration: 0, opacity:0, scale:20})
+tl.to(".text-1 span", {y:  10, duration: 0, opacity:0, scale:5})
   .to(".text-1 span", {y:   0, duration: 2, opacity:1, scale:1, ease: "power3.inOut", stagger:{from: "edges", amount: 2}})
   //.to(".text-1 span", {x:-900, duration: 1, ease: "bounce.out", opacity: 0, stagger:{from: "random", amount: 1.5}})
   //.to(".text-1 span", {x: 900, duration: 1, opacity: 0})
