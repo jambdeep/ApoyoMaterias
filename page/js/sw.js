@@ -7,7 +7,7 @@ self.addEventListener('install', event => {
     cache.addAll([
       'index.html',
       'js/converter.js',
-      'js/converter.css'
+      'css/converter.css'
     ]);
   })());
 });
