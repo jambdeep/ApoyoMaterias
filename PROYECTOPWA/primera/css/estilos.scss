@@ -1,0 +1,122 @@
+// **************************
+// Asignación de colores
+// **************************
+$principal:#419A1C;
+$secundario:#384452;
+$terciario:#BBFF9C;
+
+
+/*-----------------------------
+Tipografia
+------------------------------*/
+// Normalizar para REMS
+html{
+    font-size: 62.5%;
+}
+
+// Fuentes para documento
+// h1,h2,h3,h4 . . . (Display)
+.display-6{
+    font-size: 1.9rem;
+}
+
+.display-5{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+h6, .list-inline-item{
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: -0.2rem -0.1rem 0.3rem black;
+}
+// *---------------------------
+// ESTILOS COLOR PRINCIPAL
+// *---------------------------
+// bg, text ...
+.bg-primary{
+    background-color: $principal !important;
+}
+
+
+// *---------------------------
+// ESTILOS COLOR SECUNDARIO
+// *---------------------------
+// bg, text ...
+.bg-secondary{
+    background-color: $secundario !important;
+}
+
+// *---------------------------
+// ESTILOS COLOR TERCIARIO
+// *---------------------------
+// bg, text ...
+.text-success{
+    color: $terciario !important;
+}
+
+// *---------------------------
+// Estilos encabezado
+// *---------------------------
+// clases propias
+#barra-redes i{
+    color: $terciario;
+    margin-right: 1rem;
+    font-size: 3rem;
+}
+
+.navbar-nav a{
+    color: $terciario !important;
+    font-size: 2rem;
+    padding-right: 3rem !important;
+}
+.fondo-header{
+    background-image: url(../images/principal01.jpg);
+    height: 60rem;
+    background-position: center;
+    background-size: cover;
+}
+#slogan{
+    text-shadow: -5rem -3rem 0.5rem gray;
+}
+.text-primary{
+    color: #419A1C !important;
+}
+.razones i{
+    font-size: 2.8rem;
+    text-shadow: -0.2rem -0.1rem 0.3rem black;
+}
+// *---------------------------
+// Estilos swiper
+// *---------------------------
+// .swiper {
+//     width: 100%;
+//     height: 40rem;
+//   }
+//   .swiper-slide{
+//     background-position: center;
+//     background-size: cover;
+//   }
+// .swiper {
+//     width: 100%;
+//     height: 60vh;
+// }
+
+// .swiper-slide {
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat:  no-repeat;
+// }
+
+// .swiper-button-next:after{
+//     font-family: bootstrap-icons !important;
+//     content: "\F138";
+// }
+/*-----------------------------
+ESTILOS FOOTER
+------------------------------*/
+footer a, footer address{
+    color: $terciario !important;
+    font-size: 1rem;
+    text-decoration: none;
+    text-shadow: -0.5rem -0.1rem 4rem black;
+}

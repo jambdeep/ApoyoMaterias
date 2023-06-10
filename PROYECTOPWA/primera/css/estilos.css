@@ -1,0 +1,75 @@
+/*-----------------------------
+Tipografia
+------------------------------*/
+html {
+  font-size: 62.5%;
+}
+
+.display-6 {
+  font-size: 1.9rem;
+}
+
+.display-5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h6, .list-inline-item {
+  font-size: 1.3rem;
+  color: white;
+  text-shadow: -0.2rem -0.1rem 0.3rem black;
+}
+
+.bg-primary {
+  background-color: #419A1C !important;
+}
+
+.bg-secondary {
+  background-color: #384452 !important;
+}
+
+.text-success {
+  color: #BBFF9C !important;
+}
+
+#barra-redes i {
+  color: #BBFF9C;
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+
+.navbar-nav a {
+  color: #BBFF9C !important;
+  font-size: 2rem;
+  padding-right: 3rem !important;
+}
+
+.fondo-header {
+  background-image: url(../images/principal01.jpg);
+  height: 60rem;
+  background-position: center;
+  background-size: cover;
+}
+
+#slogan {
+  text-shadow: -5rem -3rem 0.5rem gray;
+}
+
+.text-primary {
+  color: #419A1C !important;
+}
+
+.razones i {
+  font-size: 2.8rem;
+  text-shadow: -0.2rem -0.1rem 0.3rem black;
+}
+
+/*-----------------------------
+ESTILOS FOOTER
+------------------------------*/
+footer a, footer address {
+  color: #BBFF9C !important;
+  font-size: 1rem;
+  text-decoration: none;
+  text-shadow: -0.5rem -0.1rem 4rem black;
+}/*# sourceMappingURL=estilos.css.map */
