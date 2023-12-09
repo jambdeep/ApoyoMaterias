@@ -367,7 +367,7 @@ class Menu extends Phaser.Scene{
 
     preload(){
         // Directorio raíz
-        this.load.baseURL = '231202';
+        this.load.baseURL = 'ApoyoMaterias/231202';
         // Elementos para la construcción de niveles
         this.load.image('fondo','../img/background.png');
         this.load.image('plarga', '../img/plataformal.png');        
