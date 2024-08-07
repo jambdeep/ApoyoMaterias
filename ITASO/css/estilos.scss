@@ -1,0 +1,240 @@
+// INICIO
+/* Definir la fuente regular */
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/asap-v30-latin-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Definir la fuente bold */
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/asap-v30-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;    
+}
+
+// Normalizar para REMS
+html{
+    font-size: 62.5%;
+}
+
+
+html, body {    
+    position: relative;
+    height: 100%;
+}
+
+body {
+    // background: #eee;
+    font-family: 'MyFont', sans-serif;
+    background: #fff;  /*colocar color itaso*/
+    color: #000;
+}
+
+h3{
+    font-weight: 700 !important;
+    font-size: 4rem !important;
+    text-shadow: 0.1rem 0.2rem 0.5rem #93BA1F;
+}
+
+h4{
+    font-weight: 500 !important;
+    font-size: 3.5rem !important;
+    // text-shadow: 0.1rem 0.2rem 0.5rem #69bfdc;
+}
+
+h5{
+    font-size: 2.5rem !important;
+    color: white !important;    
+}
+
+h6{
+    font-size: 1.5rem !important;
+    color: white !important;    
+}
+
+nav {
+    background-color: #f8f9fa;    
+    font-family: 'MyFont';
+}
+
+.nav-item a{
+    color: #000000a6;
+    font-size: 2rem;
+}
+
+.nav-item a:hover{
+    color: #EFA220;
+    font-size: 2rem;
+}
+
+.nav-item{
+    // margin: 0px 2px;    
+    // background-color: #EFA220 !important;
+    color: #EFA220;
+}
+
+.swiper {        
+    width: 100%;
+    height: 100%;  
+    // padding-top: 1rem;      
+}
+
+.swiper-slide {
+    text-align: center;
+    // font-size: 1.8px;
+    // background: #fff;
+    // background: black;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.swiper-slide img {
+    display: block;    
+    width: 100%;
+    height: auto;        
+    // object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#mision p, #vision p{
+    font-size: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+    // background-color: #EFA220;    
+}
+
+.btn-primary{
+    background-color: #69bfdc !important;
+    border-color:#69bfdc !important;   
+    font-size: 2rem;
+    padding: 1rem 3rem;
+}
+
+.btn-primary:hover{
+    background-color: #36393f !important;
+    border-color: #ffff !important;    
+}
+
+footer{
+    // height: 20%;    
+    background-color:#EFA220;    
+}
+
+footer h5, h6{
+    text-shadow: 0.1rem 0.2rem 0.4rem #000;    
+}
+
+footer a{
+    font-size: 3rem;
+    color: #fff; 
+    text-shadow: 0.1rem 0.2rem 0.4rem #000;    
+}
+
+.btn-success{
+    background-color: #93BA1F !important;
+    border-color:#93BA1F !important;    
+    font-size: 1.5rem;
+}
+
+.btn-success:hover{
+    background-color: #36393f !important;
+    border-color: #ffff !important;
+}
+
+/*https://www.youtube.com/watch?app=desktop&v=hxR9e1QNooo*/
+
+// Medias queries
+@media (max-width: 400px) {
+    .swiper {
+        width: 100%;
+        height: 50%;    
+        padding-top: .8rem;
+    }
+    p{
+        font-size: 1.2rem !important;
+    }
+}
+
+hr{
+    opacity: 1 !important; 
+    border-top: .2rem solid white;
+}
+
+.swiper-button-next:after{
+    font-family: bootstrap-icons !important;
+    content: "\F76E"; 
+    padding-right: 5rem !important;   
+    color: white;
+}
+
+.swiper-button-prev:after{
+    font-family: bootstrap-icons !important;
+    content: "\F76E"; 
+    padding-left: 5rem !important;   
+    color: white;
+}
+
+.swiper-pagination-bullet-active{    
+    background-color: #EFA220;
+}
+
+#derechos{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+// Eventos
+#eventos{
+    padding-top: 4rem;
+}
+
+#eventos p{
+    font-size: 1.8rem;        
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.blockquote-footer{
+    font-size: 1.4rem;       
+}
+
+.figure-caption{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.form-label {
+    font-size: 1.8rem;    
+}
+
+.form-control{
+    font-size: 1.2rem;    
+}
+
+// Foro
+#foro{
+    padding-top: 4rem;
+}
+
+#foro h4{
+    font-size: 2rem !important;
+}
+
+#foro h6{
+    font-size: 2.5rem !important;
+    text-shadow: 0.1rem 0.2rem 0.4rem #000;    
+}
+
+.bg-info{
+    background-color: #69bfdc !important;
+}
+
+.bg-success{
+    background-color: #93BA1F !important;
+}
