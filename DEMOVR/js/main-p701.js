@@ -81,7 +81,7 @@ function init() {
     const gltfLoader = new GLTFLoader();
 
     gltfLoader.load(
-        './models/room_interior/scene.gltf',
+        '../models/room_interior/scene.gltf',
 
         // CARGA EXITOSA
         (gltf) => {
